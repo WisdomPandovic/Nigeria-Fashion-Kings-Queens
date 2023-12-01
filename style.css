@@ -82,9 +82,21 @@ position: relative;
 .arriana-text{
 position: absolute;
 top: 10%;
-left: 30%;
+left: 10%;
 z-index: 999;
 font-size: 80px;
+text-align: center;
+}
+
+@media (min-width:500px) {
+  .arriana-text{
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    z-index: 999;
+    font-size: 80px;
+    text-align: center;
+    }
 }
 
 .back-top a:hover {
@@ -3216,7 +3228,19 @@ input[type="button"].btn-block {
     color: #fff; }
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; }
+.mg-top{
+  margin-top: 100px ;
+}
 
+.pd-bot{
+  padding-bottom:40px;
+}
+
+.flex-rth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .card {
   position: relative;
   display: flex;
@@ -12347,7 +12371,10 @@ ul, ol {
 .btn {
   text-transform: uppercase;
   letter-spacing: .05rem;
-  cursor: pointer; }
+  cursor: pointer; 
+  margin-top: 6px;
+}
+
 
 .btn-ico {
   position: relative;
